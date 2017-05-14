@@ -1,0 +1,29 @@
+{
+  "name": "pearsallstoneware",
+  "version": "1.0.0",
+  "description": "Pearsall Stoneware showlist",
+  "main": "index.js",
+  "dependencies": {
+    "gh-pages": "^1.0.0",
+    "textract": "^2.1.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pearsallstoneware/website.git"
+  },
+  "keywords": [
+    "Randy",
+    "Pearsall",
+    "pottery"
+  ],
+  "author": "Wyatt Pearsall",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pearsallstoneware/website/issues"
+  },
+  "homepage": "https://github.com/pearsallstoneware/website#readme"
+}

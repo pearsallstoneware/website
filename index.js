@@ -1,11 +1,14 @@
 const textract = require('textract')
+const ghPages = require('gh-pages')
 const fs = require('fs')
 
 textract.fromFileWithPath('./t2.odt', 
   {preserveLineBreaks: true},
   function( error, text ) {
     writeIndex(createBody(text)) 
-    publish()
+    ghPages.publish('dist', function(err){
+      console.log('published')
+    })
 })
 
 function createBody(text) {
@@ -23,8 +26,4 @@ function createBody(text) {
 function writeIndex(body) {
   const tmpl = fs.readFileSync('./tmpl.html')
   fs.writeFileSync('./dist/index.html', tmpl + body)
-}
-
-function publish() {
-  console.log('published')
 }
