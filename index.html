@@ -13,24 +13,27 @@
     h2 {
       margin: 0.25em;
     }
-    .twentytwo > p {
-      line-height: 1.6em;
-    }
     #text-wrapper {
       font-family: Geneva, sans-serif;
       text-align: center;
       margin-bottom: 2em;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
     }
     header > p {
       font-size: 0.9em;
     }
     #shows {
+      width: 100%;
       margin-top: 1em;
       display: inline-block;
     }
     #shows > p {
+      max-width: 380px;
+      margin: auto;
+      line-height: 1.6em;
       text-align: left;
-      margin: 0.5em 0;
     } 
     .cancelled, .delayed {
       text-decoration: line-through;
@@ -50,16 +53,7 @@
     .twentytwo {
       font-size: 18px;
       text-align:left;
-      margin:auto;
       width:430px;
-      padding-left:120px;
-    }
-    @media only screen and (max-width: 800px){
-      .twentytwo {
-        font-size: 16px;
-        max-width: 350px;
-        padding-left:70px;
-      }
     }
   </style>
   </head>
@@ -74,31 +68,26 @@
         <p><a href="tel:+2098257792">209-825-7792</a></p>
       </header>
       <div id="shows">
-        <!--p style="margin:1em 0 2em 0; line-height:1.5em;">We will be having our studio Christmas sale outside under canopies, rain or shine.<br/>Please bring your mask and remember to social distance. Hand sanitizer will be provided.<br/>I've been making pottery all year and have new glazes and pieces for you to see.</p-->
-        <!--p>Look forward to seeing you this December!<br/></p-->
-        <div style="font-size: 20px;">
-          <!--p style="margin-top:4px;"><b style="font-size: 24px;">Hours:</b> 10am - 5pm</p-->
-          <div class="twentytwo">
-            <p><b>Feb. 12-13</b> Lake Havasu Winterfest</p>
-            <p><b>Mar. 20-21</b> Jackson Dandelion</p>
-            <p><b>Apr. 29-30, May 1</b> Fresno Vintage Days</p>
-            <p><b>May 7-8</b> Pacific Grove Good Old Days</p>
-            <p><b>May 14-15</b> Livermore Arts and Crafts Festival</p>
-            <p><b>May 29-30</b> Art and Wind Festival</p>
-            <p><b>June 4-5</b> Sunnyvale Art and Wine Festival</p>
-            <p><b>July 16-17</b> Graeagle Arts and Crafts Festival</p>
-            <p><b>July 23-24</b> Twainharte Art and Wine Festival</p>
-            <p><b>Aug. 6-7</b> Fremont Art and Wine Festival</p>
-            <p><b>Sep. 3-4</b> Millbrae Art and Wine Festival</p>
-            <p><b>Sep. 10-11</b> Mountain View Art and Wine Festival</p>
-            <p><b>Sep. 24-25</b> Genoa Candy Dance</p>
-            <p><b>Dec. 2-3</b> St. John's School Show of Hands</p>
-            <p><b>Dec. 10-11</b> Home Studio Sale</p>
-            <p><b>Dec. 17-18</b> Home Studio Sale</p>
-          </div>
-        </div>
+        <p><b>Feb. 12-13</b> Lake Havasu Winterfest</p>
+        <p><b>Mar. 20-21</b> Jackson Dandelion</p>
+        <p><b>Apr. 29-30, May 1</b> Fresno Vintage Days</p>
+        <p><b>May 7-8</b> Pacific Grove Good Old Days</p>
+        <p><b>May 14-15</b> Livermore Arts and Crafts Festival</p>
+        <p><b>May 29-30</b> Art and Wind Festival</p>
+        <p><b>June 4-5</b> Sunnyvale Art and Wine Festival</p>
+        <p><b>July 16-17</b> Graeagle Arts and Crafts Festival</p>
+        <p><b>July 23-24</b> Twainharte Art and Wine Festival</p>
+        <p><b>Aug. 6-7</b> Fremont Art and Wine Festival</p>
+        <p><b>Sep. 3-4</b> Millbrae Art and Wine Festival</p>
+        <p><b>Sep. 10-11</b> Mountain View Art and Wine Festival</p>
+        <p><b>Sep. 24-25</b> Genoa Candy Dance</p>
+        <p><b>Dec. 2-3</b> St. John's School Show of Hands</p>
+        <p><b>Dec. 10-11</b> Home Studio Sale</p>
+        <p><b>Dec. 17-18</b> Home Studio Sale</p>
       </div>
     </div>
     <!--img class="dadpic" src="./dad.jpg" alt="Randy Pearsall next to a giant pot, in a studio full of pottery, wielding an experimental glazing gun."-->
   </body>
 </html>
+<!--p style="margin:1em 0 2em 0; line-height:1.5em;">We will be having our studio Christmas sale outside under canopies, rain or shine.<br/>Please bring your mask and remember to social distance. Hand sanitizer will be provided.<br/>I've been making pottery all year and have new glazes and pieces for you to see.</p-->
+<!--p>Look forward to seeing you this December!<br/></p-->
